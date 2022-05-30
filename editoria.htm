@@ -1,0 +1,443 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="it">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>SIPHAR - EDITORIA</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+
+function FP_swapImgRestore() {//v1.0
+ var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
+  var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } } 
+  doc.$imgSwaps=null; }
+}
+// -->
+</script>
+</head>
+<style>
+body {
+	background:black url('sfondone.jpg') no-repeat fixed top center; margin-top: 0px; margin-left:2px
+	}
+</style>
+
+
+<body onload="FP_preloadImgs(/*url*/'imgsito/over_03.jpg',/*url*/'imgsito/over_04.jpg',/*url*/'imgsito/over_05.jpg',/*url*/'imgsito/over_06.jpg',/*url*/'imgsito/over_07.jpg',/*url*/'imgsito/over_08.jpg',/*url*/'imgsito/over_09.jpg',/*url*/'imgsito/over_10.jpg',/*url*/'imgsito/over_11.jpg',/*url*/'imgsito/over_12.jpg',/*url*/'imgsito/over_13.jpg',/*url*/'imgsito/over_14.jpg',/*url*/'imgsito/head_19.jpg',/*url*/'imgsito/over_19.jpg',/*url*/'imgsito/over_17.jpg',/*url*/'imgsito/over_18.jpg',/*url*/'imgsito/head_17over.jpg')">
+
+<div align="center">
+	<table border="0" width="41%" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>
+			<p style="margin-top: 0; margin-bottom: 0">
+			<img border="0" src="imgsito/header.jpg" width="885" height="153"></p>
+			<p style="margin-top: 0; margin-bottom: 0">
+			<a target="_self" href="index.htm">
+			<img border="0" src="imgsito/head_03.jpg" width="74" height="38" id="img1" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img1',/*url*/'imgsito/over_03.jpg')"></a><a target="_self" href="storia.htm"><img border="0" src="imgsito/head_04.jpg" width="47" height="38" id="img2" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img2',/*url*/'imgsito/over_04.jpg')"></a><a target="_self" href="statuto.htm"><img border="0" src="imgsito/head_05.jpg" width="56" height="38" id="img3" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img3',/*url*/'imgsito/over_05.jpg')"></a><a target="_self" href="regolamento.htm"><img border="0" src="imgsito/head_06.jpg" width="89" height="38" id="img4" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img4',/*url*/'imgsito/over_06.jpg')"></a><a target="_self" href="scopi.htm"><img border="0" src="imgsito/head_07.jpg" width="45" height="38" id="img5" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img5',/*url*/'imgsito/over_07.jpg')"></a><a target="_self" href="direttivo.htm"><img border="0" src="imgsito/head_08.jpg" width="63" height="38" id="img6" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img6',/*url*/'imgsito/over_08.jpg')"></a><a target="_self" href="contatti.htm"><img border="0" src="imgsito/head_09.jpg" width="60" height="38" id="img7" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img7',/*url*/'imgsito/over_09.jpg')"></a><a target="_self" href="congressi.htm"><img border="0" src="imgsito/head_10.jpg" width="128" height="38" id="img8" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img8',/*url*/'imgsito/over_10.jpg')"></a><a target="_self" href="editoria.htm"><img border="0" src="imgsito/head_11.jpg" width="55" height="38" id="img9" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img9',/*url*/'imgsito/over_11.jpg')"></a><a target="_self" href="fitovigilanza.htm"><img border="0" src="imgsito/head_12.jpg" width="81" height="38" id="img10" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img10',/*url*/'imgsito/over_12.jpg')"></a><a target="_self" href="link.htm"><img border="0" src="imgsito/head_13.jpg" width="36" height="38" id="img11" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img11',/*url*/'imgsito/over_13.jpg')"></a><a target="_self" href="rassegne.htm"><img border="0" src="imgsito/head_14.jpg" width="151" height="38" id="img12" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img12',/*url*/'imgsito/over_14.jpg')"></a></p>
+			<p style="margin-top: 0; margin-bottom: 0">
+			<img border="0" src="imgsito/head_16.jpg" width="434" height="38"><a target="_self" href="piantemedicinali.htm"><img border="0" src="imgsito/head_17.jpg" width="189" height="38" id="img16" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img16',/*url*/'imgsito/head_17over.jpg')"></a><a target="_self" href="areasoci.htm"><img border="0" src="imgsito/head_18.jpg" width="67" height="38" id="img13" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img13',/*url*/'imgsito/over_17.jpg')"></a><a target="_self" href="areadidattica.htm"><img border="0" src="imgsito/head_19.jpg" width="92" height="38" id="img14" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img14',/*url*/'imgsito/over_18.jpg')"></a><a target="_self" href="sipharpervoi.htm"><img border="0" src="imgsito/head_20.jpg" width="103" height="38" id="img15" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img15',/*url*/'imgsito/over_19.jpg')"></a></p>
+			<p style="margin-top: 0; margin-bottom: 0">
+			<object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" id="obj1" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="885" height="240">
+				<param name="movie" value="preview.swf">
+				<param name="quality" value="High">
+				<embed src="preview.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" name="obj1" width="885" height="240" quality="High"></object>
+			</p>
+			<p style="margin-top: 0; margin-bottom: 0">
+			<img border="0" src="imgsito/linea.jpg" width="885" height="33"></p>
+			<div align="center">
+				<table border="0" width="96%" cellspacing="0" cellpadding="0">
+					<tr>
+						<td>
+						<p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font face="Tahoma" color="#005126"><b>Editoria</b><br>
+						<br>
+						<font size="2">In questa sezione vengono elencati libri 
+						di potenziale interesse scientifico-applicativo in campo 
+						medico; particolare rilevanza viene rivolta ai testi di 
+						Farmacognosia e Fitoterapia.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font face="Tahoma" color="#005126"><font size="2"><br>
+						Text Book of Pharmacognosy <br>
+						Author: Heber Wilkinson Youngken<br>
+						Palala Press (September 1,2015)<br>
+						--------------------------------------------------------------------------------------------------------------------</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font face="Tahoma" color="#005126"><font size="2"><br>
+						Fundamentals of Pharmacognosy and Phytotherapy, 3rd Edition<br>
+						Authors: Michael Heinrich Joanne Barnes Jose Prieto-Garcia Simon Gibbons Elizabeth Williamson <br>
+						Elsevier (January 16,2018)<br>
+						--------------------------------------------------------------------------------------------------------------------</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font face="Tahoma" color="#005126"><font size="2"><br>
+						Alkaloids - Secrets of Life: Akaloid Chemistry, 
+						Biological Significance, Applications and Ecological 
+						Role<br>
+						Tadeusz Aniszewski (2007).<br>
+						Edito da Elsevier, Amsterdam. <br>
+
+						--------------------------------------------------------------------------------------------------------------------</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font face="Tahoma" color="#005126"><font size="2"><br>
+						American Herbal Pharmacopoeia: Botanical Pharmacognosy<br>
+						Microscopic Characterization of Botanical Medicines. <br>
+						Editori: Roy Upton, Alison Graff, Georgina Jolliffe, 
+						Reinhard Länger, Elizabeth Williamson, CRC Press, (1° 
+						edizione, Mar 24, 2011)</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Anticancer Agents from Natural Products<br>
+						G.M. Cragg, D.G.I. Kingston, D.J. Newman. (2005).<br>
+						Edito da Taylor &amp; Francis, London</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Botanica e Chimica degli Allucinogeni<br>
+						Schultes R.E. e Hofmann A. (1983).<br>
+						Edito da Cesco Ciapanna Editore, Roma.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font face="Tahoma" color="#005126"><font size="2"><br>
+						Chimica, Biosintesi e Bioattivita’ delle Sostanze 
+						Naturali<br>
+						Dewick P.M., edizione italiana a cura del Prof. E. 
+						Fattorusso (2001).<br>
+						Edito da Piccin, Padova.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font face="Tahoma" color="#005126"><font size="2"><br>
+						Clinical Botanical Medicine<br>
+						2nd Edition, Revised and Expanded<br>
+						Eric Yarnell, Kathy Abascal, and Robert Rountree (2009).<br>
+						Edito da Mary Ann Liebert, Inc. (New Rochelle, NY)</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Complementary and Alternative Medicine. Second edition
+						<br>
+						Kayne SB. (2008).<br>
+						Pharmaceutical Press, Chicago – USA</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Dietary Supplements Pocket Companion. First edition <br>
+						Mason P. (2008).<br>
+						Pharmaceutical Press, Chicago – USA</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Dietary Supplements. Third edition <br>
+						Mason P. (2007).<br>
+						Edito da Pharmaceutical Press, Chicago - USA</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Dizionario Ragionato di Erboristeria e Fitoterapia<br>
+						Bruni A. e Nicoletti M. (2003) . <br>
+						Edito da Piccin, Padova.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Drugs of Natural Origin - A textbook of Pharmacognosy<br>
+						Fourth revised edition - Samuelsson G. (1999).<br>
+						Edito da Apotekarsocieteten, Kristianstad.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						E/S/C/O/P Monographs<br>
+						The Scientific Foundation for Herbal Medicinal Products 
+						(2003)<br>
+						Edito da E/S/C/O/P, Exeter.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Evaluation Of Herbal Medicinal Products<br>
+						Houghton P., and Mukherjee P.K. (2009)<br>
+						Edito da Pharmaceutical Press, Great Britain</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Evaluation of Herbal Medicinal Products. First edition
+						<br>
+						Edito da Houghton P e Mukherjee PK. (2009).<br>
+						Pharmaceutical Press, Chicago – USA</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Farmacognosia - Farmaci naturali, loro preparazioni ed 
+						impiego terapeutico<br>
+						Capasso F., De Pasquale R., Grandolini G. e Mascolo N. 
+						(2000). <br>
+						Edito da Springer, Milano.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Farmacognosia Applicata<br>
+						Capasso F. Borelli F., Longo R., Capasso R. (2007).<br>
+						Edito da Springer, Milano.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Farmacognosia Generale e Applicata<br>
+						Bruni A. (1999). <br>
+						Edito da Piccin, Padova</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Farmacologia – Principi di base e applicazioni 
+						terapeutiche.<br>
+						Rossi F., Cuomo V., Riccardi R. (2005).<br>
+						Edito da Edizioni Minerva Medica, Torino.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						FASTtrack: Complementary and Alternative Medicine. First 
+						edition <br>
+						Edito da Kayne SB. (2008).<br>
+						Pharmaceutical Press, Chicago – USA</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font face="Tahoma" color="#005126"><font size="2"><br>
+						FITOTERAPIA IN UNO SGUARDO<br>
+						Capasso F. Grandolini G. Pescitelli R. (2008)<br>
+						Edito da SPRINGER</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Fitoterapia – Erbe medicinali tra evidenze d'efficacia 
+						ed effetti indesiderati<br>
+						Dobrilla G., Coruzzi G. (2005).<br>
+						Edito da Il pensiero Scientifico Editore, Roma.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Fitoterapia – Impiego razionale delle droghe vegetali<br>
+						Capasso F., Grandolini G., Izzo A. (2006).<br>
+						Springer, Milano.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font face="Tahoma" color="#005126"><font size="2"><br>
+						Flavonoids in Health and Disease<br>
+						II Edizione<br>
+						Rice-Evans C., Packer L. (2003).<br>
+						Edito da DEKKER (USA).</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Flavonoids: Chemistry, Biochemistry and Applications<br>
+						Oyvind M. Andersen, Kenneth R. Markham (2006).<br>
+						Edito da Taylor &amp; Francis, London.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Fundamentals of Pharmacognosy and Phytotherapy<br>
+						Heinrich M., Barnes J., Gibbons S., Williamson E. M. 
+						(2004).<br>
+						Edito da Churchill Livingstone, Edimburg.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Handbook of Pharmaceutical Natural Products<br>
+						Goutam Brahmachari (2010). <br>
+						Edito da Wiley-VCH.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Herbal Medicines<br>
+						Third edition<br>
+						Barnes J., Anderson L. A., Phillipson J. D. (2007).<br>
+						Edito da Pharmaceutical Press, London.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						HPTLC Cromatografia su strato sottile ad alta 
+						prestazione per l'analisi delle piante medicinali<br>
+						Autore: Reich Eike; Schibli Anne, Editore: CIC Edizioni 
+						Internazionali, Anno:</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Index plantarum medicinalium totius mondi eorumque 
+						synonymorum<br>
+						Penso G. (1983).<br>
+						Edito da O.E.M.F., Milano.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Indian Herbal Remedies Rational Western Therapy, 
+						Ayurvedic and Other Traditional <br>
+						Usage, Botany<br>
+						Khare, C.P. (2004)<br>
+						Edito da Springer-Verlag (New York, USA)</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						INTERAZIONI FRA ERBE, ALIMENTI E FARMACI<br>
+						Firenzuoli F. (2009).<br>
+						Edito da TECNICHE NUOVE, Milano</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						L'UOMO, LA FITOTERAPIA, LA GEMMOTERAPIA <br>
+						Brigo B. (2009).<br>
+						Edito da TECNICHE NUOVE, Milano</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Le Monografie Tedesche - Schede Fitoterapiche del 
+						Ministero della Sanità di Germania<br>
+						edizione italiana tradotta e commentata da Longo R. 
+						(1994).<br>
+						Edito da Studio Edizioni, Milano.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font size="2" face="Tahoma" color="#005126"><br>
+						<br>
+						Lexicon plantarum medicinalium<br>
+						Penso G. (1991).<br>
+						Edito da O.E.M.F., Milano. <br>
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Molecules and Medicine<br>
+						E. J. Corey, Barbara Czakó, László Kürti (2007).<br>
+						Edito da Wiley, San Francisco</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Nutraceuticals. A guide for healthcare professionals. 
+						Second edition<br>
+						Lockwood B. (2007).<br>
+						Pharmaceutical Press, Chicago – USA</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						OMS: monografie di piante medicinali<br>
+						Volume I (2002) - edizione italiana a cura della Società 
+						Italiana di Fitoterapia<br>
+						Edito da Edizioni Le Nuove Scritture, Abbiategrasso (MI).</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						OMS: monografie di piante medicinali<br>
+						Volume II (2004) - edizione italiana a cura della 
+						Società Italiana di Fitoterapia<br>
+						Edito da Edizioni Le Nuove Scritture, Abbiategrasso (MI).</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						PDR for herbal medicines<br>
+						Third edition (2004)<br>
+						Edito da Thomson PDR, Montvale NJ.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Pharmacognosy - Phytochemistry Medicinal Plants<br>
+						Second edition - Bruneton J. (2001).<br>
+						Edito da Lavoisier, Paris.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Plant Drug Analysis<br>
+						Wagner H., Bladt S., Zgainski E. M. (1983).<br>
+						Edito daSpringer – Verlag Berlin Heidelberg.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Powdered Vegetable Drugs<br>
+						Jackson B. P., Snowdon D. W. (1968). <br>
+						Edito da J. &amp; A. Churchill Ltd, London</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Principi di Farmacognosia e Fitoterapia<br>
+						Tognolini M. e Chiavarini M. (2007).<br>
+						Edito da Edizioni Uni.Nova, Parma.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Rational Phytoterapy - A reference guide for Physicians 
+						and Pharmacists<br>
+						Fifth edition<br>
+						Schulz V., Hansel R., Blumenthal M., Tyler V.E. (2004).<br>
+						Edito da Springer - Verlag Berlin Heidelberg.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Reazioni avverse a Farmaci – Sospetto e diagnosi. <br>
+						Caputi A.P., De Ponti F., Pagliaro L. (2009)<br>
+						Edito da Rafaello Cortina (Italia)</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font size="2" face="Tahoma" color="#005126">
+						<br>
+						<br>
+						Recent developments in medicinal plant research<br>
+						Editor Anna Capasso – Research SignPost (2007). <br>
+						--------------------------------------------------------------------------------------------------------------------</font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126"><br>
+						Stockley'S Herbal Medicines Interactions, First Edition. 
+						Book<br>
+						Driver S., Williamson E., Baxter K. (2009)<br>
+						Edito da Pharmaceutical Press, Great Britain <br>
+						--------------------------------------------------------------------------------------------------------------------</font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font face="Tahoma" color="#005126"><font size="2"><br>
+						Stockley's Herbal Medicines Interactions. First edition
+						<br>
+						Edito da Kayne SB. (2009).<br>
+						Pharmaceutical Press, Chicago – USA</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						The ABC Clinical Guide to Herbs<br>
+						Blumenthal M. (2003).<br>
+						Edito da American Botanical Council, Austin, Texas.</font></font><p style="margin-top: 0; margin-bottom: 0" align="justify">
+						<font size="2" face="Tahoma" color="#005126">
+						--------------------------------------------------------------------------------------------------------------------</font><font face="Tahoma" color="#005126"><font size="2"><br>
+						<br>
+						Traditional Medicine - A Global Perspective. First 
+						edition </font><br>
+&nbsp;</font></td>
+					</tr>
+				</table>
+			</div>
+			<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+			<p style="margin-top: 0; margin-bottom: 0">
+			<img border="0" src="imgsito/linea.jpg" width="885" height="33"></p>
+			<div align="center">
+				<table border="0" width="97%" cellspacing="0" cellpadding="0">
+					<tr>
+						<td>
+						<p align="justify" style="margin-top: 0; margin-bottom: 0">
+						<font face="Tahoma" size="2" color="#005126">Nel sito 
+						possono essere contenute informazioni mediche e 
+						scientifiche riconducibili, in alcuni casi, a 
+						indicazioni su medicinali o su terapie. Tali 
+						informazioni non intendono fornire in nessun caso 
+						consigli di natura sanitaria. L'utente non medico o non 
+						operante nel settore medico-scientifico è invitato a 
+						rivolgersi esclusivamente al medico di fiducia per ogni 
+						necessità di diagnosi e terapia.</font></td>
+					</tr>
+				</table>
+			</div>
+			<p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>

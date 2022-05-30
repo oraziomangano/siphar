@@ -1,0 +1,43 @@
+<bannerRotator>
+	
+	
+	<settings>
+		
+		<totalWidth>885</totalWidth>
+		<totalHeight>240</totalHeight>
+
+		<blurX>20</blurX>
+		<blurY>0</blurY>
+		<blurQuality>2</blurQuality>
+		
+		<slideAnimationTime>0.5</slideAnimationTime>
+		<slideAnimationType>easeOutCirc</slideAnimationType>
+		
+		<descriptionBlurX>0</descriptionBlurX>
+		<descriptionBlurY>0</descriptionBlurY>
+		<descriptionBlurQuality>0</descriptionBlurQuality>
+		
+	</settings>
+
+	<content>
+		<slide src="imgbanner/1.jpg" url="" target="_blank" stay="3">
+			<![CDATA[]]>
+		</slide>
+
+			
+		<slide src="imgbanner/2.jpg" url="" target="_blank" stay="3">
+			<![CDATA[]]>
+
+		</slide>
+
+		<slide src="imgbanner/3.jpg" url="" target="_blank" stay="3">
+			<![CDATA[]]>
+
+		</slide>
+		
+		
+		
+	</content>
+
+
+</bannerRotator>
